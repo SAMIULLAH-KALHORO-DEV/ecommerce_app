@@ -49,20 +49,15 @@ fonts:
  
    - asset: assets\fonts\Poppins-Light.ttf
      wight: 300
-   
    - asset: assets\fonts\Poppins-Regular.ttf
      wight: 400
-   
    - asset: assets\fonts\Poppins-Italic.ttf
      style: 500
-   
    - asset: assets\fonts\Poppins-Medium.ttf
      wight: 500
-   
    - asset: assets\fonts\Poppins-MediumItalic.ttf
      wight: 500
      style: italic
-   
    - asset: assets\fonts\Poppins-SemiBold.ttf
      wight: 600
    - asset: assets\fonts\Poppins-Bold.ttf
