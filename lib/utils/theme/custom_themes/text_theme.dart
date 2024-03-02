@@ -6,29 +6,74 @@ class TTextTheme {
   static TextTheme lightTextTheme = TextTheme(
     // headline
     //
-    headlineLarge: TextStyle().copyWith(
+    headlineLarge: const TextStyle().copyWith(
         fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black),
-    headlineMedium: TextStyle().copyWith(
+    headlineMedium: const TextStyle().copyWith(
         fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
-    headlineSmall: TextStyle().copyWith(
+    headlineSmall: const TextStyle().copyWith(
         fontSize: 18, fontWeight: FontWeight.w600, color: Colors.black),
     //
     // title
     //
-    titleLarge: TextStyle().copyWith(
+    titleLarge: const TextStyle().copyWith(
         fontSize: 18, fontWeight: FontWeight.w600, color: Colors.black),
-    titleMedium: TextStyle().copyWith(
+    titleMedium: const TextStyle().copyWith(
         fontSize: 18, fontWeight: FontWeight.w500, color: Colors.black),
-    titleSmall: TextStyle().copyWith(
+    titleSmall: const TextStyle().copyWith(
         fontSize: 18, fontWeight: FontWeight.w400, color: Colors.black),
+
+    bodyLarge: const TextStyle().copyWith(
+        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.black),
+    bodyMedium: const TextStyle().copyWith(
+        fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black),
+    bodySmall: const TextStyle().copyWith(
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        color: Colors.black.withOpacity(0.5)),
+
+    labelLarge: const TextStyle().copyWith(
+        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.black),
+    labelMedium: const TextStyle().copyWith(
+        fontSize: 12,
+        fontWeight: FontWeight.normal,
+        color: Colors.black.withOpacity(0.5)),
   );
 
 // ---
 
   static TextTheme darkTextTheme = TextTheme(
-    headlineLarge: TextStyle().copyWith(
-        fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black),
-    headlineMedium: TextStyle().copyWith(
-        fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
+    // headline
+    //
+    headlineLarge: const TextStyle().copyWith(
+        fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
+    headlineMedium: const TextStyle().copyWith(
+        fontSize: 24, fontWeight: FontWeight.w600, color: Colors.white),
+    headlineSmall: const TextStyle().copyWith(
+        fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white),
+    //
+    // title
+    //
+    titleLarge: const TextStyle().copyWith(
+        fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white),
+    titleMedium: const TextStyle().copyWith(
+        fontSize: 18, fontWeight: FontWeight.w500, color: Colors.white),
+    titleSmall: const TextStyle().copyWith(
+        fontSize: 18, fontWeight: FontWeight.w400, color: Colors.white),
+
+    bodyLarge: const TextStyle().copyWith(
+        fontSize: 14, fontWeight: FontWeight.w500, color: Colors.white),
+    bodyMedium: const TextStyle().copyWith(
+        fontSize: 14, fontWeight: FontWeight.normal, color: Colors.white),
+    bodySmall: const TextStyle().copyWith(
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        color: Colors.black.withOpacity(0.5)),
+
+    labelLarge: const TextStyle().copyWith(
+        fontSize: 12, fontWeight: FontWeight.normal, color: Colors.white),
+    labelMedium: const TextStyle().copyWith(
+        fontSize: 12,
+        fontWeight: FontWeight.normal,
+        color: Colors.black.withOpacity(0.5)),
   );
 }
