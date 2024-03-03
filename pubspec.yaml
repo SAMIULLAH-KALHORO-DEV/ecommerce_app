@@ -13,14 +13,19 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-
-  #icons
+    # ---icon packages
   cupertino_icons: ^1.0.2
   iconsax: ^0.0.8
+  
+  # ---- utility packages---
+  http: null
   intl: ^0.19.0
   logger: ^2.0.2+1
   url_launcher: ^6.2.5
+
+  # ----state Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -31,33 +36,28 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-#----------local assets-----------#
-
+  #----------local assets-----------#
   assets:
     - assets/icons/
     - assets/images/
     - assets/logos/
 
-
 #-----------local Fonts---------#
-
 fonts:
   -family: Poppins
   fonts:
- 
-   - asset: assets\fonts\Poppins-Light.ttf
-     wight: 300
-   - asset: assets\fonts\Poppins-Regular.ttf
-     wight: 400
-   - asset: assets\fonts\Poppins-Italic.ttf
-     style: 500
-   - asset: assets\fonts\Poppins-Medium.ttf
-     wight: 500
-   - asset: assets\fonts\Poppins-MediumItalic.ttf
-     wight: 500
-     style: italic
-   - asset: assets\fonts\Poppins-SemiBold.ttf
-     wight: 600
-   - asset: assets\fonts\Poppins-Bold.ttf
-     wight: 800
-   
+    - asset: assets\fonts\Poppins-Light.ttf
+      wight: 300
+    - asset: assets\fonts\Poppins-Regular.ttf
+      wight: 400
+    - asset: assets\fonts\Poppins-Italic.ttf
+      style: 500
+    - asset: assets\fonts\Poppins-Medium.ttf
+      wight: 500
+    - asset: assets\fonts\Poppins-MediumItalic.ttf
+      wight: 500
+      style: italic
+    - asset: assets\fonts\Poppins-SemiBold.ttf
+      wight: 600
+    - asset: assets\fonts\Poppins-Bold.ttf
+      wight: 800
