@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 class TPricingCalculator {
   // -- Calculate Price based on tax and shipping
@@ -27,7 +26,7 @@ class TPricingCalculator {
     return taxAmount.toStringAsFixed(2);
   }
 
-  static double getTextRateForLocation(String Location) {
+  static double getTextRateForLocation(String location) {
     return 0.10;
   }
 

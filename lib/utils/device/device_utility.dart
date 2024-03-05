@@ -53,6 +53,10 @@ class TDeviceUtils {
     return kBottomNavigationBarHeight;
   }
 
+  static double getAppBarHeight() {
+    return kToolbarHeight;
+  }
+
   static double getKeyboardHeight() {
     return kToolbarHeight;
   }
