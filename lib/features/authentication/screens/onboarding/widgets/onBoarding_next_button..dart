@@ -6,7 +6,6 @@ import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-
 class OnBoardingNextButton extends StatelessWidget {
   const OnBoardingNextButton({
     super.key,
@@ -23,7 +22,7 @@ class OnBoardingNextButton extends StatelessWidget {
           style: ElevatedButton.styleFrom(
               shape: const CircleBorder(),
               backgroundColor: dark ? TColors.primary : Colors.black),
-          child: Icon(
+          child: const Icon(
             Iconsax.arrow_right3,
             color: TColors.white,
           ),

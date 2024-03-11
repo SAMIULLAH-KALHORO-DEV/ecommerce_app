@@ -6,6 +6,10 @@ class TImages {
       "assets/images/on-boarding-images/logo/store_logo_dark.png";
   static const String lightAppLogo =
       "assets/images/on-boarding-images/logo/store_logo_white.png";
+  static const String facebookIcon =
+      "assets/images/on-boarding-images/logo/facebook_logo.png";
+  static const String googleIcon =
+      "assets/images/on-boarding-images/logo/google_logo.png";
 
   // OnBoarding Images
   static const String onBoardingImage1 =

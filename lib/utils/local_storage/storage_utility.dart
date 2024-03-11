@@ -1,4 +1,3 @@
-import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
 class TLocalStorage {
@@ -18,6 +17,7 @@ class TLocalStorage {
   }
 
   // Generic method to read data
+  // ignore: non_constant_identifier_names
   T? readData<T>(String Key) {
     return _storage.read<T>(Key);
   }

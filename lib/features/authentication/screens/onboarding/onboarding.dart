@@ -3,16 +3,12 @@ import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:ecommerce_app/utils/constants/colors.dart';
 import 'package:ecommerce_app/utils/constants/image_strings.dart';
-import 'package:ecommerce_app/utils/constants/sizes.dart';
 import 'package:ecommerce_app/utils/constants/text_strings.dart';
-import 'package:ecommerce_app/utils/device/device_utility.dart';
 import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:iconsax/iconsax.dart';
+
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -22,7 +18,6 @@ class OnBoardingScreen extends StatelessWidget {
     final dark = THelperFuntions.isDarkMode(context);
     final controller = Get.put(OnBoardingController());
     return Scaffold(
-      backgroundColor: dark ? Colors.black : Colors.white,
       body: Stack(
         children: [
           // horizental scrollable pages
@@ -30,17 +25,17 @@ class OnBoardingScreen extends StatelessWidget {
             controller: controller.pageController,
             onPageChanged: controller.updatePageIndicator,
             children: const [
-              onBoardingPage(
+              OnBoardingPage(
                 image: TImages.onBoardingImage1,
                 title: TText.onBoardingTitle1,
                 subTitle: TText.onBoardingSubTitle1,
               ),
-              onBoardingPage(
+              OnBoardingPage(
                 image: TImages.onBoardingImage2,
                 title: TText.onBoardingSubTitle2,
                 subTitle: TText.onBoardingSubTitle2,
               ),
-              onBoardingPage(
+              OnBoardingPage(
                 image: TImages.onBoardingImage3,
                 title: TText.onBoardingSubTitle3,
                 subTitle: TText.onBoardingSubTitle3,
@@ -50,11 +45,11 @@ class OnBoardingScreen extends StatelessWidget {
 
           // skip button
 
-          const onBoardingSkip(),
+          const OnBoardingSkip(),
           // Dot navigation smoothpage indicator
           const OnBoardingDotNavigation(),
           // Circuler Button
-          OnBoardingNextButton()
+          const OnBoardingNextButton()
         ],
       ),
     );

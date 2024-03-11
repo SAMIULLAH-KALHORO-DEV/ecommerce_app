@@ -3,8 +3,8 @@ import 'package:ecommerce_app/utils/constants/sizes.dart';
 import 'package:ecommerce_app/utils/device/device_utility.dart';
 import 'package:flutter/material.dart';
 
-class onBoardingSkip extends StatelessWidget {
-  const onBoardingSkip({
+class OnBoardingSkip extends StatelessWidget {
+  const OnBoardingSkip({
     super.key,
   });
 
@@ -15,7 +15,7 @@ class onBoardingSkip extends StatelessWidget {
       right: TSizes.defaultSpace,
       child: TextButton(
         onPressed: () => OnBoardingController.instance.skipPage(),
-        child: Text("Skip"),
+        child: const Text("Skip"),
       ),
     );
   }

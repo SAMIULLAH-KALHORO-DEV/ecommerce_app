@@ -6,6 +6,6 @@ void main() {
   // todo: Init local storage
   // todo: Initialize firebase
   // todo: initialize authentication
-  
+
   runApp(const App());
 }

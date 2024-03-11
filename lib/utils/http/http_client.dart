@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:logger/logger.dart';
 
 class THttpHelper {
   static const String _baseUrl = 'http:/your api'; // replace with your api
