@@ -1,4 +1,5 @@
 import 'package:ecommerce_app/common/widgets/login_signup/form_divider.dart';
+import 'package:ecommerce_app/common/widgets/login_signup/social_buttons.dart';
 import 'package:ecommerce_app/utils/constants/colors.dart';
 import 'package:ecommerce_app/utils/constants/sizes.dart';
 import 'package:ecommerce_app/utils/constants/text_strings.dart';
@@ -116,10 +117,13 @@ class SignupScreen extends StatelessWidget {
                 )
               ]),
             ),
-            
 
             // Divider
-            TFormDivider(dividerText: TText.orSignInWith.capitalize!)
+            const SizedBox(height: TSizes.spaceBtwSections),
+            TFormDivider(dividerText: TText.orSignInWith.capitalize!),
+            const SizedBox(height: TSizes.spaceBtwSections),
+            // Social Buttons
+            const TSocialButton()
           ]),
         ),
       ),
