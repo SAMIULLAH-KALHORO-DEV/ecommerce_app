@@ -18,4 +18,8 @@ class TImages {
       "assets/images/on-boarding-images/sammy-line-shopping.gif";
   static const String onBoardingImage3 =
       "assets/images/on-boarding-images/sammy-line-delivery.gif";
+
+  // Animations
+  static const String deliveredEmailIllustration =
+      "assets/images/animations/sammy-line-man-receives-a-mail.png";
 }

@@ -5,7 +5,6 @@ import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:ecommerce_app/utils/constants/image_strings.dart';
 import 'package:ecommerce_app/utils/constants/text_strings.dart';
-import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -15,7 +14,6 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFuntions.isDarkMode(context);
     final controller = Get.put(OnBoardingController());
     return Scaffold(
       body: Stack(

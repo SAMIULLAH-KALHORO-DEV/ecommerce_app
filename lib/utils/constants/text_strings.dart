@@ -29,6 +29,11 @@ class TText {
   static const String phoneNo = "Phone Number";
   static const String remeberMe = "Remeber Me";
   static const String forgetPassword = "Forget Password";
+  static const String submit = "Submit";
+  static const String done = "Done";
+
+  static const String tContinue = "Continue";
+
   static const String signIn = "Sign In";
   static const String createAccount = "Create Account";
   static const String orSignInWith = "or sign in with";
